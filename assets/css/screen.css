@@ -1,0 +1,117 @@
+#wrapper .conteiner .centered-conteiner .primary-post{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    height: 400px;
+    cursor:pointer;
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .primary-post:hover{
+    opacity: 0.8;
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .primary-post .thumb{
+    background-color: #ccc;
+    overflow: hidden;
+}
+#wrapper .conteiner .centered-conteiner .primary-post .thumb img{
+    width: 100%;
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text h1{
+   font-size: 40px;
+   margin-bottom: 15px;
+   transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .primary-post:hover .text h1 {
+    color: var(--third-color);
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text p{
+   margin: 20px 0 10px 0;
+   font-size: 18px;
+   color:var(--Grey-color);
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text span{
+    background-color: var(--first-color);
+    padding: 10px 10px;
+    color: var(--white-color);
+    font-size: 13px;
+}
+#wrapper .conteiner .centered-conteiner .list-posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px 0;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post{
+    height: 480px;
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post .thumb{
+    height: 350px;
+    overflow: hidden;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post .thumb img{
+    width: 100%;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post .text span{
+    background-color: var(--first-color);
+    padding: 10px 10px;
+    color: var(--white-color);
+    font-size: 13px;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post .text h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px; 
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .list-posts .item-post:hover .text h1{
+    color: var(--third-color);
+    transition: all 500ms ease;
+}
+#wrapper .conteiner .centered-conteiner .pagination{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+#wrapper .conteiner .centered-conteiner .pagination .page-numbers{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#wrapper .conteiner .centered-conteiner .pagination .page-numbers li a{
+    padding: 5px 13px;
+    color: var(--black-color);
+    text-decoration: none;
+}
+#wrapper .conteiner .centered-conteiner .pagination .page-numbers .next{
+    font-size: 18px;
+    margin-top: 4px;
+}
+#wrapper .conteiner .centered-conteiner .pagination .page-numbers .prev{
+    font-size: 18px;
+    margin-top: 4px;
+}
+#wrapper .conteiner .centered-conteiner .pagination .page-numbers li{
+    background: #ececec;
+   /* padding: 7px 13px;*/
+    margin: 2px;
+    text-transform: uppercase;
+}
+#wrapper .conteiner .centered-conteiner .pagination .page-numbers  li a:hover{
+    background: var(--first-color);
+    color: var(--white-color)
+}
+#wrapper .conteiner .centered-conteiner .pagination .current{
+    padding: 5px 13px;
+    background: var(--second-color);
+    color: var(--white-color)
+}
