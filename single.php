@@ -41,11 +41,11 @@ if(have_posts()):
     <?php } ?>
       <?php echo get_the_content(); ?>
             <div class="tags">
-                <ul>
+                <!-- <ul>
                     <a href="#"><li>Direito</li></a>
                     <a href="#"><li>Poder</li></a>
                     <a href="#"><li>Liberdade</li></a>
-                </ul>
+                </ul> -->
             </div>    
             </div>
 <?php
