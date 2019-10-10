@@ -41,11 +41,18 @@ if(have_posts()):
     <?php } ?>
       <?php echo get_the_content(); ?>
             <div class="tags">
-                <!-- <ul>
-                    <a href="#"><li>Direito</li></a>
-                    <a href="#"><li>Poder</li></a>
-                    <a href="#"><li>Liberdade</li></a>
-                </ul> -->
+                <ul>
+                <?php
+                $post_tags = get_the_tags();
+                if($post_tags){
+                    foreach($post_tags as $tag){
+                ?>
+                    <a href="#"><li><?php echo $tag->name; ?></li></a>
+                <?php 
+                    }
+                } 
+                ?>
+                </ul>
             </div>    
             </div>
 <?php
