@@ -23,10 +23,13 @@
                         <div class="social">
                             <h1>Conecte-se</h1>
                             <ul>
-                                <a href="#"><li><i class="fab fa-facebook-square"></i></li></a>
-                                <a href="#"><li><i class="fab fa-twitter-square"></i></li></a>
-                                <a href="#"><li><i class="fab fa-instagram"></i></li></a>
-                                <a href="#"><li><i class="fab fa-whatsapp-square"></i></li></a>
+                                <?php
+                                 $socialLink = options_theme('social_link');
+                                 if($socialLink['facebook']) echo '<a href="'. $socialLink['facebook'] .'" target="_blank" ><li><i class="fab fa-facebook-square"></i></li></a>';
+                                 if($socialLink['twitter']) echo '<a href="'. $socialLink['twitter'] .'" target="_blank" ><li><i class="fab fa-twitter-square"></i></li></a>';
+                                 if($socialLink['instagram']) echo '<a href="'. $socialLink['instagram'] .'" target="_blank" ><li><i class="fab fa-instagram"></i></li></a>';
+                                 if($socialLink['whatsapp']) echo '<a href="'. $socialLink['whatsapp'] .'" target="_blank" ><li><i class="fab fa-whatsapp"></i></li></a>';
+                                ?>
                             </ul>
 
                         </div>
@@ -34,10 +37,13 @@
                             <h1>Assine o Podcast</h1>
                             <p>Acompanhe o podcast diretamente de qualquer lugar, assine em um dos canais </p>
                             <ul>
-                                <a href="#"><li><i class="fab fa-spotify"></i></li></a>
-                                <a href="#"><li><i class="fab fa-itunes"></i></i></li></a>
-                                <a href="#"><li><i class="fab fa-google"></i></li></a>
-                                <a href="#"><li><i class="fas fa-rss-square"></i></li></a>
+                                <?php
+                                $linkFeed = options_theme('link_feeds');
+                                if($linkFeed['spotify']) echo '<a href="'. $linkFeed['spotify']. '" target="_blank"><li><i class="fab fa-spotify"></i></li></a>';
+                                if($linkFeed['itunes']) echo '<a href="'. $linkFeed['itunes']. '" target="_blank"><li><i class="fab fa-itunes"></i></li></a>';
+                                if($linkFeed['google']) echo '<a href="'. $linkFeed['google']. '" target="_blank"><li><i class="fab fa-google"></i></li></a>';
+                                if($linkFeed['rss']) echo '<a href="'. $linkFeed['rss']. '" target="_blank"><li><i class="fas fa-rss-square"></i></li></a>';
+                                ?>
                             </ul>
                         </div>
                         <div class="design-by">

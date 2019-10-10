@@ -98,4 +98,23 @@
         'after_title' => '</h1></div>',
     ) );
 }
+
+function options_theme($array = null){
+    $list = array(
+        'social_link'   => array(
+            'facebook'  =>  'https://www.facebook.com/ouvindodireito/',
+            'twitter'   =>  null,
+            'instagram' =>  'https://www.instagram.com/ouvindodireito/',
+            'whatsapp'  =>  null,
+        ),
+        'link_feeds'  => array(
+            'spotify' => 'https://open.spotify.com/show/2ELOKAng9tLWimCT5lJ8Ba?si=c4NsQ4hlSeuPJ1pkyMSeHA',
+            'itunes'  => null,
+            'google'  => null,
+            'rss'     => 'http://ouvindodireito.com/feed/podcast/'
+        )
+    );
+    if($array) return $list[$array];
+    return $list;
+}
 ?>
