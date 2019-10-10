@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/assets/css/main.css" rel="stylesheet">
     <?php  if(is_home() && ! is_paged()){ ?>
-        <link href="<?php bloginfo('template_directory'); ?>/assets/css/screen.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_directory'); ?>/assets/css/screen.css?ver=1015" rel="stylesheet">
     <?php }elseif (is_single()) { ?>
         <link href="<?php bloginfo('template_directory'); ?>/assets/css/player-styles.css" rel="stylesheet">
         <link href="<?php bloginfo('template_directory'); ?>/assets/css/single.css" rel="stylesheet">
