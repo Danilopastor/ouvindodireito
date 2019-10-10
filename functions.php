@@ -86,4 +86,16 @@
              ) );
         }
      endif;
+
+
+     if ( function_exists('register_sidebar') )
+{
+    register_sidebar(array(
+        'name' => __( 'Conteúdo Lateral do Site'),
+        'id' => 'sidebar-1',
+        'description' => __( 'Adicionar itens na lateral do site.'),
+        'before_title' => '<div class="title-aside"><h1>',
+        'after_title' => '</h1></div>',
+    ) );
+}
 ?>

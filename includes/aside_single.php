@@ -1,3 +1,10 @@
+<div class="aside-single">
+<ul>
+<?php
+    if ( is_active_sidebar( 'sidebar-1' ) ) :		
+        dynamic_sidebar( 'sidebar-1' );
+    endif;
+?>
 <?php
     $exclude = $postId;
     $aside_post = new WP_Query(
@@ -12,7 +19,8 @@
 
     if ( have_posts() ) :
 ?>
-<div class="aside-single">
+</ul>
+<div>
     <div class="title-aside"><h1>Outros Posts</h1></div>
     <div class="content-aside">
 <?php 
@@ -34,3 +42,4 @@
 <?php
 	endif;
 ?>
+</div>
