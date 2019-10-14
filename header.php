@@ -31,8 +31,8 @@
                         <div class="content-menu">
                                 <ul>
                                     <a href="<?php bloginfo('home') ?>"><li><i class="fas fa-home"></i> Home</li></a>
-                                    <a href="<?php bloginfo('home') ?>/sobre"><li><i class="fas fa-caret-right"></i> Sobre</li></a>
-                                    <a href="<?php bloginfo('home') ?>/contato"><li><i class="fas fa-phone"></i> Contato</li></a>
+                                    <!-- <a href="<?php bloginfo('home') ?>/sobre"><li><i class="fas fa-caret-right"></i> Sobre</li></a>
+                                    <a href="<?php bloginfo('home') ?>/contato"><li><i class="fas fa-phone"></i> Contato</li></a> -->
                                 </ul>
                             </div>
                     </div>

@@ -11,8 +11,8 @@
                         <div class="menu-footer">
                             <ul>
                                 <a href="<?php bloginfo('home') ?>"><li>Home</li></a>
-                                <a href="<?php bloginfo('home') ?>/sobre"><li>Sobre</li></a>
-                                <a href="<?php bloginfo('home') ?>/contato"><li>Contato</li></a>
+                                <!-- <a href="<?php bloginfo('home') ?>/sobre"><li>Sobre</li></a>
+                                <a href="<?php bloginfo('home') ?>/contato"><li>Contato</li></a> -->
                             </ul>
                         </div>
                         <div class="text-footer">
