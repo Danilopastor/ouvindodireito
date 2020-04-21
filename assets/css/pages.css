@@ -39,7 +39,6 @@
 #wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post p{
     margin-top: 10px;
     font-size: 18px;
-    text-align: justify;
     letter-spacing: 1px;
     line-height: 1.4;
     color: var(--Grey-color);
@@ -86,6 +85,10 @@
 }
 #wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post .tags ul li:hover{
     background-color: var(--black-color);
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post .wp-block-image img{
+    text-align: center;
+    margin: 10px;
 }
 .pagination{
     display: flex;

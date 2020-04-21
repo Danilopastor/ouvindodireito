@@ -49,8 +49,7 @@
 }
 #wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post p{
     margin-top: 10px;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.4;
     color: var(--Grey-color);
@@ -85,6 +84,17 @@
 }
 #wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post .tags ul li:hover{
     background-color: var(--black-color);
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post .wp-block-image{
+    text-align: center;
+    margin: 10px;
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post ul{
+    list-style: inside;
+    margin: 10px;
+}
+#wrapper .conteiner .centered-conteiner .primary-post .text .space-blog-content .content-post ul li{
+
 }
 .box-player{
     width: 100%;

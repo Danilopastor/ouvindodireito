@@ -10,9 +10,9 @@
         <link href="<?php bloginfo('template_directory'); ?>/assets/css/screen.css?ver=1015" rel="stylesheet">
     <?php }elseif (is_single()) { ?>
         <link href="<?php bloginfo('template_directory'); ?>/assets/css/player-styles.css" rel="stylesheet">
-        <link href="<?php bloginfo('template_directory'); ?>/assets/css/single.css?ver=1015" rel="stylesheet">
+        <link href="<?php bloginfo('template_directory'); ?>/assets/css/single.css?ver=1016" rel="stylesheet">
     <?php }else{ ?>
-        <link href="<?php bloginfo('template_directory'); ?>/assets/css/pages.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_directory'); ?>/assets/css/pages.css?ver=1016" rel="stylesheet">
     <?php } ?>
   <?php wp_head(); ?>  
 </head>
