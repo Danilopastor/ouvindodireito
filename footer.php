@@ -16,7 +16,7 @@
                             </ul>
                         </div>
                         <div class="text-footer">
-                            <p>Copyright © 2019 Ouvindo Direito, Todos os Direitos Reservados</a></p>
+                            <p>Copyright © 2020 Ouvindo Direito, Todos os Direitos Reservados</a></p>
                         </div>
                     </div>
                     <div class="item">
